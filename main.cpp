@@ -29,7 +29,7 @@
 
 #define APPNAME "OpenBongoCat"
 
-#define ASSETS "/home/bene/tmp/Xtest/assets"
+#define ASSETS "assets"
 
 #define SCREAM "sound/dscream3.wav"
 
