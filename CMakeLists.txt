@@ -23,12 +23,13 @@ find_library(XI_LIB Xi REQUIRED)
 
 include_directories(
     ${X11_INCLUDE_DIR}
+    src
 )
 
 
 add_executable(${PROJECT_NAME} 
-    main.cpp
-    keylogger.cpp
+    src/main.cpp
+    src/keylogger.cpp
 )
 
 

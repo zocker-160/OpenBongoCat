@@ -3,7 +3,7 @@
 
 compile: build
 	mkdir -p build
-	cmake -S . -B build
+	cmake -S src -B build
 
 run: CMakeLists.txt build
 	cmake --build build
